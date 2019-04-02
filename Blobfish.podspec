@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "Blobfish"
-  s.version      = "1.1"
+  s.version      = "1.1.1"
   s.summary      = "Easily handle errors and present them to the user in a nice way."
   s.description  = <<-DESC
   Blobfish is designed in order to make error handling simpler. Just dispatch error messages to the Blobfish and enjoy. There're multiple options for presenting errors to user: from allerts to custom views.
