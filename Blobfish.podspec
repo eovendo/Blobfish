@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/nodes-ios/Blobfish"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "Nodes iOS" => "ldn@nodesagency.com" }
-  s.platform     = :ios, "8.0"
+  s.platform     = :ios, "9.0"
   s.swift_version = "5.0"
   s.source       = { :git => "https://github.com/eovendo/Blobfish.git", :tag => "#{s.version}" }
   s.source_files  = "Blobfish", "Blobfish/Classes"
