@@ -13,6 +13,7 @@ Pod::Spec.new do |s|
   s.swift_version = "5.0"
   s.source       = { :git => "https://github.com/eovendo/Blobfish.git", :tag => "#{s.version}" }
   s.source_files  = "Blobfish", "Blobfish/Classes"
+  s.exclude_files = "Blobfish/Classes/Reachability.swift"
   s.resource  = "Blobfish_icon.png"
   s.dependency 'Alamofire'
 
